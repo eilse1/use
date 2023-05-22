@@ -29,10 +29,15 @@ function ISP_ValidCheck(para) {
   }
 }
 
-function Area_check(para) {
+function Area_check(para) 
+{
   if(para=="中华民国"){
   return "台湾"
-  } else
+  } 
+  else if(para=="德意志联邦共和国"){
+  return "德国"
+  }
+  else
   {
   return para
   }
